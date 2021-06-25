@@ -14,17 +14,26 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+
+
+
+
+<div align="center">
+
 ## Hello I'm Sea
 [comment]: <> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
+### My Github
 
+![Github stats](https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true)
 
-### My Languages
-&#8195; &#8195;![Github stats](https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true)
 
 
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&layout=compact)
 
 
+</div>_
 
 
 
@@ -32,15 +41,22 @@ Here are some ideas to get you started:
 
 
 
+
+
+
+<div align="center">
 
 ## 学习Vue
+
+</div>
+
 <img src=https://cn.vuejs.org/images/logo.svg  width=100% height=150 />
 
 > 我是一名初级前端工程师，每天努力学习一点，争取有朝一日可以成为技术大佬。
 > 
 > 记录学习前端过程总结，深入理解web前端相关知识，自我总结，持续更新。
 
-#### vue指令学习
+#### <center> 学习Vue </center>
 
 > v-text  v-html  v-bind v-for  v-if  v-show  v-for
 
@@ -59,8 +75,12 @@ _________
 >2. 双向绑定 ;
 >3. 虚拟DOM;
 
+<div align="center">
 
 ## [vue-cli](https://cli.vuejs.org/zh/guide/)
+
+</div>
+
 >Vue CLI 是一个基于 Vue.js 进行快速开发的完整系统，提供：
 
 - 通过 @vue/cli 实现的交互式的项目脚手架。
@@ -73,11 +93,21 @@ _________
 - 一个丰富的官方插件集合，集成了前端生态中最好的工具。
 - 一套完全图形化的创建和管理 Vue.js 项目的用户界面。
 
+<div align="center">
 
-## [vuex](https://vuex.vuejs.org/zh/)
+## [vuex](https://vuex.vuejs.org/zh/) 
+
+</div>
+
 >Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
 > 
+> 
+> 
+<div align="center">
+
 ## [vue-router](https://router.vuejs.org/zh/)
+
+</div>
 
 >Vue Router 是 Vue.js (opens new window)官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。包含的功能有：
 
@@ -91,8 +121,12 @@ _________
 - 自定义的滚动条行为
 
 
+<div align="center">
 
 ## [Git学习](https://www.bootcss.com/p/git-guide/)
+
+</div>
+
 > git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools不同。 
 
 [阮一峰教程](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
@@ -106,33 +140,69 @@ _________
 + git branch
 + git diff
 
+<div align="center">
+
 ## [webpack学习](https://segmentfault.com/a/1190000006178770)
+
+</div>
+
 > 本质上，[webpack](https://www.webpackjs.com/concepts/) 是一个用于现代 JavaScript 应用程序的 静态模块打包工具。当 webpack 处理应用程序时，它会在内部构建一个 依赖图(dependency graph)，此依赖图对应映射到项目所需的每个模块，并生成一个或多个 bundle。
 
+
+<div align="center">
+
 ## [axios](http://axios-js.com/zh-cn/docs/index.html)
+
+</div>
+
 > Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。
-> 
+>
+
+<div align="center">
 
 ## [Node.js](https://www.runoob.com/nodejs/nodejs-tutorial.html)
+
+</div>
+
 简单的说 Node.js 就是运行在服务端的 JavaScript。
 
 Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。
 
 Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。
 
+
+<div align="center">
+
 ## [微信小程序](https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0008aeea9a8978ab0086a685851c0a)
+</div>
+
 小程序是一种全新的连接用户与服务的方式，它可以在微信内被便捷地获取和传播，同时具有出色的使用体验。任何一个普通的开发者，经过简单的学习和练习后，都可以轻松地完成一个小程序的开发和发布。
 
+<div align="center">
+
 ## [github star](https://github.com/ErosHai?tab=stars)
+
+</div>
+
 - [ LeetCode ](https://github.com/labuladong/fucking-algorithm)
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)
   IT 必备基础知识计算机操作系统、计算机网络、系统设计
 - [编程书籍](https://github.com/jobbole/awesome-programming-books)
 
+
+<div align="center">
+
 ## [React](https://reactjs.bootcss.com/docs/getting-started.html)
+
+</div>
 用于构建用户界面的 JavaScript 库
 
+<div align="center">
+
 ## 教程
+
+</div>
+
 - [菜鸟教程](https://www.runoob.com/js/js-tutorial.html)
 - [W3Cschool](https://www.w3school.com.cn/index.html)
 - [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
@@ -143,8 +213,12 @@ Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引�
 - [掘金](https://juejin.cn/frontend)
 - [bilibili](https://www.bilibili.com/video/BV15741177Eh?from=search&seid=10398134479002757263)
 
+<div align="center">
 
 ## 常用框架
+
+</div>
+
 - [element ui](https://element.eleme.cn/#/zh-CN/component/installation)
 - [View ui](https://www.iviewui.com/docs/introduce)
 - [Bootstrap ](https://v5.bootcss.com/docs/getting-started/introduction/)
