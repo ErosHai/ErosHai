@@ -22,24 +22,25 @@ Here are some ideas to get you started:
 ### My Languages
 
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&layout=compact)
-
-
-### My Github Info
-![Github stats](https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true)
+ &#8195; &#8195;![Github stats](https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true)
 
 
 
-#### 我是一名初级前端工程师，每天努力学习一点，争取有朝一日可以成为技术大佬。
+
+
+
 
 
 ## 学习Vue
 <img src=https://cn.vuejs.org/images/logo.svg  width=100% height=150 />
 
-记录学习前端过程总结，深入理解web前端相关知识，自我总结，持续更新。
+> 我是一名初级前端工程师，每天努力学习一点，争取有朝一日可以成为技术大佬。
+> 
+> 记录学习前端过程总结，深入理解web前端相关知识，自我总结，持续更新。
 
 #### vue指令学习
 
->v-text  v-html  v-bind v-for  v-if  v-show  v-for
+> v-text  v-html  v-bind v-for  v-if  v-show  v-for
 
 ```   javaScript
 <div id='app'></div>
@@ -49,7 +50,7 @@ const vm = new Vue({
 })
 ```
 
-**Vue**
+**Vue的优点**
 _________
 
 >1. 采用MVVM模式 ;
