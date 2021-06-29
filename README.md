@@ -16,17 +16,13 @@ Here are some ideas to get you started:
 -->
 
 
-## Hello I'm Sea
-=======
-
-
 
 
 
 <div align="center">
 
 ## Hello I'm Sea
-[comment]: <> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
+[comment]: <br> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
 ### My Github
 
 [comment]: <> (![Github stats]&#40;https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true&#41;)
@@ -227,17 +223,9 @@ _________
 
 > 本质上，webpack 是一个用于现代 JavaScript 应用程序的 静态模块打包工具。当 webpack 处理应用程序时，它会在内部构建一个 依赖图(dependency graph)，此依赖图对应映射到项目所需的每个模块，并生成一个或多个 bundle。
 
-## [axios](http://axios-js.com/zh-cn/docs/index.html)
 
-> Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。
->
-
-## [Node.js](https://www.runoob.com/nodejs/nodejs-tutorial.html)
-
-=======
 </div>
 
-> 本质上，[webpack](https://www.webpackjs.com/concepts/) 是一个用于现代 JavaScript 应用程序的 静态模块打包工具。当 webpack 处理应用程序时，它会在内部构建一个 依赖图(dependency graph)，此依赖图对应映射到项目所需的每个模块，并生成一个或多个 bundle。
 
 
 <div align="center">
@@ -256,10 +244,8 @@ _________
 </div>
 
 
-简单的说 Node.js 就是运行在服务端的 JavaScript。
-
+> 简单的说 Node.js 就是运行在服务端的 JavaScript。
 Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。
-
 Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。
 
 
@@ -291,7 +277,8 @@ Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引�
 
 
 </div>
-用于构建用户界面的 JavaScript 库
+
+> 用于构建用户界面的 JavaScript 库
 
 <div align="center">
 
