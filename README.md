@@ -23,7 +23,6 @@ Here are some ideas to get you started:
 
 ## Hello I'm Sea
 [comment]: <br> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
-### My Github
 
 [comment]: <> (![Github stats]&#40;https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true&#41;)
 
