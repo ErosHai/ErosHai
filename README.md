@@ -57,21 +57,26 @@ Here are some ideas to get you started:
 
 #### <center> 学习Vue </center>
 
-> v-text  v-html  v-bind v-for  v-if  v-show  v-for
+>
+  - v-text    更新元素的 textContent
+  - v-html    更新元素的 innerHTML
+  - v-on可以缩写@     绑定事件
+    .stop 阻止冒泡，调用 event.stopPropagation()
+    .prevent 阻止默认事件，调用 event.preventDefault()
+    .capture 添加事件侦听器时使用事件捕获模式
+    .self 只当事件在该元素本身（比如不是子元素）触发时触发回调
+    .once 事件只触发一次
 
-```javaScript
-<div id='app'></div>
-const vm = new Vue({
-  el: "#app",
-  data: {message}
-})
-```
-
+  v-bind可以缩写:   当表达式的值改变时，将其产生的连带影响，响应式地作用于 DOM
+  v-if v-else   v-show  控制元素显示还是隐藏 v-show控制display属性  v-if根据表达式的值的真假条件，销毁或重建元素
+  v-cloak 防止刷新页面，网速慢的情况下出现{{ message }}等数据格式
+  v-for='item in lists'  基于源数据多次渲染元素或模板块，遍历循环显示，使用 v-for 的时候提供 key 属性，以获得性能提升。
+  v-model   在表单元素上创建双向数据绑定  可以分为 :value="text" 和@input="text = $event.target.value"
 _________
 
 **Vue的优点**
 
-> 1. 采用MVVM模式 ;
+>1. 采用MVVM模式 ;
 >2. 双向绑定 ;
 >3. 虚拟DOM;
 
