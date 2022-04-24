@@ -54,230 +54,21 @@ Here are some ideas to get you started:
 >
 > 记录学习前端过程总结，深入理解web前端相关知识，自我总结，持续更新。
 
-#### <center> 学习Vue </center>
-
->
-  - v-text    更新元素的 textContent
-  - v-html    更新元素的 innerHTML
-  - v-on可以缩写@     绑定事件
-    - .stop 阻止冒泡，调用 event.stopPropagation()
-    - .prevent 阻止默认事件，调用 event.preventDefault()
-    - .capture 添加事件侦听器时使用事件捕获模式
-    - .self 只当事件在该元素本身（比如不是子元素）触发时触发回调
-    - .once 事件只触发一次
-  - v-bind可以缩写:   当表达式的值改变时，将其产生的连带影响，响应式地作用于 DOM
-  - v-if v-else   v-show  控制元素显示还是隐藏 v-show控制display属性  v-if根据表达式的值的真假条件，销毁或重建元素
-  - v-cloak 防止刷新页面，网速慢的情况下出现{{ message }}等数据格式
-  - v-for='item in lists'  基于源数据多次渲染元素或模板块，遍历循环显示，使用 v-for 的时候提供 key 属性，以获得性能提升。
-  - v-model   在表单元素上创建双向数据绑定  可以分为 :value="text" 和@input="text = $event.target.value"
-_________
-
-**Vue的优点**
-
->1. 采用MVVM模式 ;
->2. 双向绑定 ;
->3. 虚拟DOM;
-
-
-**vue的全局组件和局部组件**
-
-```vue
-
-<script>
-// 1.创建组件构造器对象（很少用）  ES6语法``里面内容自动换行
-const cpnc = Vue.extend({
-  template: `
-     <div>
-        <h2>hello</h2>
-        <p>content</p>
-     </div>`
-})
-
-// 常用语法糖注册全局组件，内部调用extend方法
-Vue.component('vuec', {
-  template:
-    ` <div>
-         <h2>hello vue</h2>
-         <p>content  Vue 语法糖注册全局组件</p>
-      </div>
-    `
-})
-
-//2.注册组件  全局组件 
-// Vue.component('my-npc', cpnc)
-
-const app = new Vue({
-  el: '#app',
-  // 局部组件
-  components: {
-    cpn: cpnc
-  }
-})
-</script>
-
-```
-
-**组件简单写法和data的数据绑定**
-
-```html
-<div id="app">
-  <vuex></vuex>
-</div>
-```
-
-```javascript 
-<script>
-  <template id="template">
-    <div>
-      <h2> {{title}}  </h2>
-      <p>this is content</p>
-    </div>
-  </template>
-  
-  Vue.component('vuex', {
-    template: '#template',
-    // data 必须是个函数
-    data() {
-      return {
-        title: 'abc'
-      }
-    }
-  })
-</script>
-
-
-```
-
-_________
-
-
-
-<div align="center">
-
-## [vue-cli](https://cli.vuejs.org/zh/guide/)
-
-</div>
-
->Vue CLI 是一个基于 Vue.js 进行快速开发的完整系统，提供：
-
-- 通过 @vue/cli 实现的交互式的项目脚手架。
-- 通过 @vue/cli + @vue/cli-service-global 实现的零配置原型开发。 一个运行时依赖 (@vue/cli-service)，该依赖： 可升级；
-- 基于 webpack 构建，并带有合理的默认配置；
-- 可以通过项目内的配置文件进行配置；
-- 可以通过插件进行扩展。
-- 一个丰富的官方插件集合，集成了前端生态中最好的工具。
-- 一套完全图形化的创建和管理 Vue.js 项目的用户界面。
-
-
-
-<div align="center">
-
-## [vuex](https://vuex.vuejs.org/zh/) 
-
-</div>
-
->Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
-> 
-> 
-> 
-<div align="center">
-
-## [vue-router](https://router.vuejs.org/zh/)
-
-</div>
-
->Vue Router 是 Vue.js (opens new window)官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。包含的功能有：
-
-- 嵌套的路由/视图表
-- 模块化的、基于组件的路由配置
-- 路由参数、查询、通配符
-- 基于 Vue.js 过渡系统的视图过渡效果
-- 细粒度的导航控制
-- 带有自动激活的 CSS class 的链接
-- HTML5 历史模式或 hash 模式，在 IE9 中自动降级
-- 自定义的滚动条行为
-
-
-
-<div align="center">
-
-## [Git学习](https://www.bootcss.com/p/git-guide/)
-
-</div>
-
-> git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools不同。
-
-[阮一峰教程](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
-
-+ git add
-+ git commit
-+ git merge
-+ git push
-+ git pull
-+ git log
-+ git status
-+ git branch
-+ git diff
-
-<div align="center">
-
-## [webpack学习](https://segmentfault.com/a/1190000006178770)
-
-
-> 本质上，webpack 是一个用于现代 JavaScript 应用程序的 静态模块打包工具。当 webpack 处理应用程序时，它会在内部构建一个 依赖图(dependency graph)，此依赖图对应映射到项目所需的每个模块，并生成一个或多个 bundle。
-
-
-</div>
-
-
-
-<div align="center">
-
-## [axios](http://axios-js.com/zh-cn/docs/index.html)
-
-</div>
-
-> Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。
->
-
-<div align="center">
-
-## [Node.js](https://www.runoob.com/nodejs/nodejs-tutorial.html)
-
-</div>
-
-
-> 简单的说 Node.js 就是运行在服务端的 JavaScript。
-Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。
-Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。
-
-
-<div align="center">
-
-## [微信小程序](https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0008aeea9a8978ab0086a685851c0a)
-
-</div>
-
-
-小程序是一种全新的连接用户与服务的方式，它可以在微信内被便捷地获取和传播，同时具有出色的使用体验。任何一个普通的开发者，经过简单的学习和练习后，都可以轻松地完成一个小程序的开发和发布。
-
-<div align="center">
-
-## [github star](https://github.com/ErosHai?tab=stars)
-
-</div>
-
 
 - [ LeetCode ](https://github.com/labuladong/fucking-algorithm)
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)
   IT 必备基础知识计算机操作系统、计算机网络、系统设计
 - [编程书籍](https://github.com/jobbole/awesome-programming-books)
 
+<div align="center">
+
+## [Vue](https://cn.vuejs.org/v2/guide/)
+
+</div>
 
 <div align="center">
 
 ## [React](https://reactjs.bootcss.com/docs/getting-started.html)
-
 
 </div>
 
@@ -306,8 +97,8 @@ Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引�
 ## 常用框架
 
 </div>
-
-- [element ui](https://element.eleme.cn/#/zh-CN/component/installation)
+- [Ant Design](https://ant.design/components/overview-cn/)
+- [Element ui](https://element.eleme.cn/#/zh-CN/component/installation)
 - [View ui](https://www.iviewui.com/docs/introduce)
 - [Bootstrap ](https://v5.bootcss.com/docs/getting-started/introduction/)
 
