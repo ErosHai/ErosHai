@@ -47,9 +47,6 @@ Here are some ideas to get you started:
 
 </div>
 
-
-<img src=https://cn.vuejs.org/images/logo.svg  width=100% height=150 />
-
 > 我是一名初级前端工程师，每天努力学习一点，争取有朝一日可以成为技术大佬。
 >
 > 记录学习前端过程总结，深入理解web前端相关知识，自我总结，持续更新。
