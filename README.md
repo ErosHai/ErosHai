@@ -29,9 +29,6 @@ Here are some ideas to get you started:
 
 [comment]: <> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
 
-
-
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&layout=compact)
 ![Github stats](https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true)
 
 [comment]: <> (## 学习Vue)
