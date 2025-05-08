@@ -15,24 +15,19 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
-
-
-
 <div align="center">
 
 ## Hello I'm Sea
-[comment]: <br> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
+
+[comment]: br '![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai)'
 
 [comment]: <> (![Github stats]&#40;https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true&#41;)
-
 
 [comment]: <> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&#41;)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=ErosHai&theme=highcontrast&show_icons=true&count_private=true)
 
-[comment]: <> (## 学习Vue)
-
+[comment]: <> (## 学习 Vue)
 
 [comment]: <> (![Top Languages Card]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=ErosHai&layout=compact&#41;)
 
@@ -44,10 +39,9 @@ Here are some ideas to get you started:
 
 </div>
 
-> 我是一名前端工程师，主要使用react开发。
+> 我是一名前端工程师，主要使用 react 开发。
 >
-> 记录学习前端过程总结，深入理解web前端相关知识，自我总结，持续更新。
-
+> 记录学习前端过程总结，深入理解 web 前端相关知识，自我总结，持续更新。
 
 - [ LeetCode ](https://github.com/labuladong/fucking-algorithm)
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)
@@ -57,13 +51,14 @@ Here are some ideas to get you started:
 <div align="center">
 
 ## [Vue](https://cn.vuejs.org/v2/guide/)
-> Vue是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
+
+> Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
 
 </div>
 
 <div align="center">
 
-## [React](https://reactjs.bootcss.com/docs/getting-started.html)
+## [React](https://zh-hans.react.dev/learn)
 
 </div>
 
@@ -72,7 +67,6 @@ Here are some ideas to get you started:
 <div align="center">
 
 ## 教程
-
 
 </div>
 
@@ -86,7 +80,6 @@ Here are some ideas to get you started:
 - [掘金](https://juejin.cn/frontend)
 - [bilibili](https://www.bilibili.com/video/BV15741177Eh?from=search&seid=10398134479002757263)
 
-
 <div align="center">
 
 ## 常用框架
@@ -97,5 +90,3 @@ Here are some ideas to get you started:
 - [Element ui](https://element.eleme.cn/#/zh-CN/component/installation)
 - [View ui](https://www.iviewui.com/docs/introduce)
 - [Bootstrap ](https://v5.bootcss.com/docs/getting-started/introduction/)
-
-
