@@ -62,9 +62,7 @@ Here are some ideas to get you started:
 
 </div>
 
-> 用于构建用户界面的 JavaScript 库
-
-<div align="center">
+> React 应用程序是由 组件 组成的。一个组件是 UI（用户界面）的一部分，它拥有自己的逻辑和外观。组件可以小到一个按钮，也可以大到整个页面。
 
 <div align="center">
 
@@ -98,5 +96,5 @@ Here are some ideas to get you started:
 - [Element ui](https://element.eleme.cn/#/zh-CN/component/layout)
 - [View ui](https://www.iviewui.com/docs/introduce)
 - [Bootstrap ](https://v5.bootcss.com/docs/getting-started/introduction/)
-- - [tailwindcss](https://www.tailwindcss.cn/docs/installation)
-- - [webpack](https://www.webpackjs.com/concepts/)
+- [Tailwindcss](https://www.tailwindcss.cn/docs/installation)
+- [Webpack](https://www.webpackjs.com/concepts/)
