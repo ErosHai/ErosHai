@@ -76,23 +76,23 @@ Here are some ideas to get you started:
 </div>
 
 > git clone：克隆远程代码库到本地
- 
+>
 > git add：将文件添加到暂存区
-
+>
 > git commit：将暂存区的文件提交到本地代码库
-
+>
 > git push：将本地代码库的提交推送到远程代码库
-
+>
 > git pull：将远程代码库的更新下拉到本地
-
+>
 > git branch：管理本地分支
-
+>
 > git merge：合并分支
-
+>
 > git status：查看当前代码库的状态
-
+>
 > git diff：比较不同版本之间的差异
-
+>
 > git log：查看提交历史
 
 <div align="center">
