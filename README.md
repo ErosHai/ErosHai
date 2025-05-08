@@ -66,6 +66,14 @@ Here are some ideas to get you started:
 
 <div align="center">
 
+<div align="center">
+
+## [Python](https://www.readwithu.com/Article/PythonBasis/python0/WhyStudyPython.html)
+
+</div>
+
+> Python 易学，功能强大，很容易就能构建 Web 应用，非常适合初学者作为入门的开发语言
+
 ## 教程
 
 </div>
@@ -86,7 +94,9 @@ Here are some ideas to get you started:
 
 </div>
   
-- [AntDesign](https://ant.design/components/overview-cn)
-- [Element ui](https://element.eleme.cn/#/zh-CN/component/installation)
+- [AntDesign](https://ant-design.antgroup.com/components/overview-cn)
+- [Element ui](https://element.eleme.cn/#/zh-CN/component/layout)
 - [View ui](https://www.iviewui.com/docs/introduce)
 - [Bootstrap ](https://v5.bootcss.com/docs/getting-started/introduction/)
+- - [tailwindcss](https://www.tailwindcss.cn/docs/installation)
+- - [webpack](https://www.webpackjs.com/concepts/)
