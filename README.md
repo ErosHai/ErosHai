@@ -39,20 +39,18 @@ Here are some ideas to get you started:
 
 </div>
 
-> 我是一名前端工程师，主要使用 react 开发。
->
-> 记录学习前端过程总结，深入理解 web 前端相关知识，自我总结，持续更新。
+> 我是一名前端工程师，主要使用 react 进行开发
+> 此主页主要记录学习前端的过程，深入理解 web 前端相关知识，自我总结，持续更新。
 
-- [ LeetCode ](https://github.com/labuladong/fucking-algorithm)
-- [CS-Notes](https://github.com/CyC2018/CS-Notes)
-  IT 必备基础知识计算机操作系统、计算机网络、系统设计
-- [编程书籍](https://github.com/jobbole/awesome-programming-books)
+- [ LeetCode ](https://github.com/labuladong/fucking-algorithm) 编程题库
+- [编程书籍](https://github.com/jobbole/awesome-programming-books) 编程相关书籍推荐
+- [CS-Notes](https://github.com/CyC2018/CS-Notes) IT 必备基础知识计算机操作系统、计算机网络、系统设计
 
 <div align="center">
 
 ## [Vue](https://cn.vuejs.org/v2/guide/)
 
-> Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
+> Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。
 
 </div>
 
@@ -71,6 +69,25 @@ Here are some ideas to get you started:
 </div>
 
 > Python 易学，功能强大，很容易就能构建 Web 应用，非常适合初学者作为入门的开发语言
+
+<div align="center">
+
+## [Git 常用命令](https://nulab.com/zh-cn/learn/software-development/git-tutorial/)
+
+</div>
+
+> git clone：克隆远程代码库到本地
+> git add：将文件添加到暂存区
+> git commit：将暂存区的文件提交到本地代码库
+> git push：将本地代码库的提交推送到远程代码库
+> git pull：将远程代码库的更新下拉到本地
+> git branch：管理本地分支
+> git merge：合并分支
+> git status：查看当前代码库的状态
+> git diff：比较不同版本之间的差异
+> git log：查看提交历史
+
+<div align="center">
 
 ## 教程
 
