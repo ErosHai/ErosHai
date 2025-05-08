@@ -47,7 +47,7 @@ Here are some ideas to get you started:
 
 <div align="center">
   
-## [Vue](https://cn.vuejs.org/v2/guide/)
+## [Vue]([https://cn.vuejs.org/v2/guide/](https://cn.vuejs.org/guide/introduction.html))
 
 </div>
 
